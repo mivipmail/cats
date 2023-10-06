@@ -11,4 +11,6 @@
 
 Вся логика работы для скачивания картинок - в классе App\Lib\CatImageUploader
 
+В public нужно создать символическую ссылку на storage командой 'php artisan storage:link'
+
 Чтобы первично наполнить базу - нужно запустить в терминале 'php artisan migrate --seed'
