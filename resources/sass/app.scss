@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.el-button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.0em;
+    border-bottom: solid 1px lightgray;
+
+    span {
+        // font-size: 1.2em;
+        // line-height: 1.2em;
+        padding: 0.5em;
+    }
+}
+
+.box-card {
+    max-width: 600px;
+}
